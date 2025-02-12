@@ -3,33 +3,32 @@ import Username from "../Components/Username";
 import KataSandi from "../Components/KataSandi";
 import MasalahLogin from "../Components/MasalahLogin";
 import LoginButtonBox from "../Components/LoginButtonBox";
+import "./cssPages/styleLogin.css"
 
 
 function Login () {
     return (
-    <>
-    <div className="loginBody">
-      <div className="logomasuk">
+    <div className="loginscreen">
+      <div className="logo">
         <Logo />
       </div>
-        <div className="welcomemessage">
+        <div className="judul">
           <h1>Masuk</h1>
-          Selamat datang kembali!
+          <p>Selamat datang kembali!</p>
         </div>
-          <div>
+          <div className="username">
             <Username />
           </div>
-          <div>
+          <div className="katasandi">
            <KataSandi />
           </div>
-          <div>
+          <div className="masalahlogin">
             <MasalahLogin />
           </div>
-          <div>
+          <div className="loginbuttonbox">
             <LoginButtonBox/>
         </div>
     </div>
-    </>
     )
 };
 
