@@ -7,7 +7,7 @@
     width: 480px;
     height: 675px;
     color: white;
-    padding: 3px;
+    gap: 10px;
     border-radius: 25px
   }
 
@@ -16,7 +16,6 @@
     justify-content: center;  
     align-items: center; 
     flex-direction: column;    
-
   }
   
   .logo{

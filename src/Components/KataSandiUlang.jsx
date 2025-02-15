@@ -1,12 +1,12 @@
 import "./cssComponents/inputBar.css"
 
-function KataSandi(){
+function KataSandiUlang(){
     return(
     <div className="inputBar">
-        <label>Kata Sandi</label>
-        <input type="password" id="katasandi" name="katasandi" placeholder="Masukkan Kata Sandi"/>
+        <label>Konfirmasi Kata Sandi</label>
+        <input type="password" id="katasandiulang" name="katasandiulang" placeholder="Masukkan Kata Sandi"/>
     </div>
     );
 }
 
-export default KataSandi;
+export default KataSandiUlang;

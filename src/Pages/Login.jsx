@@ -1,8 +1,8 @@
 import Logo from "../Components/LogoChill";
 import Username from "../Components/Username";
 import KataSandi from "../Components/KataSandi";
-import MasalahLogin from "../Components/MasalahLogin";
 import LoginButtonBox from "../Components/LoginButtonBox";
+import SudahPunyaAkun from "../Components/SudahPunyaAkun";
 import "./cssPages/styleLogin.css"
 
 
@@ -23,7 +23,7 @@ function Login () {
            <KataSandi />
           </div>
           <div className="masalahlogin">
-            <MasalahLogin />
+            <SudahPunyaAkun />
           </div>
           <div className="loginbuttonbox">
             <LoginButtonBox/>

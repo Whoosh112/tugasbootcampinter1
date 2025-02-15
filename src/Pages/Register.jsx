@@ -4,19 +4,18 @@ import KataSandi from "../Components/KataSandi";
 import MasalahLogin from "../Components/MasalahLogin";
 import LoginButtonBox from "../Components/LoginButtonBox";
 import KataSandiUlang from "../Components/KataSandiUlang";
+import WelcomeRegister from "../Components/WelcomeRegister";
 import "./cssPages/styleRegister.css"
-
 
 
 function Register () {
     return (
   <div className="loginscreen">
-      <div className="logo">
-        <Logo />
-      </div>
+        <div className="logo">
+          <Logo />
+        </div>
         <div className="judul">
-          <h1>Daftar</h1>
-          <p>Selamat datang!</p>
+          <WelcomeRegister/>
         </div>
           <div className="username">
             <Username />
