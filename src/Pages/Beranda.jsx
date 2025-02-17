@@ -1,9 +1,18 @@
+import Navbar from "../Components/Navbar";
+
+import "./cssPages/styleBeranda.css"
 
 function Beranda () {
     return (
     <>
-        <h1>Test Beranda</h1>
-        <h2>Testing Beranda</h2>
+    <div className="beranda">
+      <div className="navi">
+          <Navbar />
+      </div>
+      <div className="skibidi">
+          <p>Lmao toilet</p>
+      </div>
+    </div>
     </>
     )
 };

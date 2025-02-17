@@ -1,3 +1,9 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .loginscreen {
     display: flex;
     justify-content: center;  
@@ -7,7 +13,7 @@
     width: 480px;
     height: 675px;
     color: white;
-    gap: 10px;
+    gap: 25px;
     border-radius: 25px
   }
 

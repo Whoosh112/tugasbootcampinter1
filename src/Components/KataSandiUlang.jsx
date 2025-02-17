@@ -1,4 +1,4 @@
-import "./cssComponents/inputBar.css"
+import "./cssComponents/inputbar.css"
 
 function KataSandiUlang(){
     return(
