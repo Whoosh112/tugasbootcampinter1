@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.loginscreen {
+.registerscreen {
   display: flex;
   justify-content: center;  
   align-items: center; 
@@ -13,7 +13,7 @@
   width: 480px;
   height: 675px;
   color: white;
-  gap: 10px;
+  gap: 30px;
   border-radius: 25px
   }
 

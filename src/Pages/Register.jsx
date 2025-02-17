@@ -5,12 +5,13 @@ import MasalahLogin from "../Components/MasalahLogin";
 import LoginButtonBox from "../Components/LoginButtonBox";
 import KataSandiUlang from "../Components/KataSandiUlang";
 import WelcomeRegister from "../Components/WelcomeRegister";
+
 import "./cssPages/styleRegister.css"
 
 
 function Register () {
     return (
-  <div className="loginscreen">
+  <div className="registerscreen">
         <div className="logo">
           <Logo />
         </div>
