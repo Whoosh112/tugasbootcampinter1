@@ -11,9 +11,9 @@
     flex-direction: column;    
     background-color: rgba(50,50,50,0.4);
     width: 480px;
-    height: 625px;
+    height: 600px;
     color: white;
-    gap: 30px;
+    gap: 25px;
     border-radius: 25px
   }
   

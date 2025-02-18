@@ -1,4 +1,6 @@
 import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+
 
 import "./cssPages/styleBeranda.css"
 
@@ -9,8 +11,8 @@ function Beranda () {
       <div className="navi">
           <Navbar />
       </div>
-      <div className="skibidi">
-          <p>Lmao toilet</p>
+      <div className="hero">
+          <Hero />
       </div>
     </div>
     </>
