@@ -1,3 +1,7 @@
+import InformationOutline from "../assets/assetgambar/assetgambarberanda/information-outline.png";
+import VolumeOff from "../assets/assetgambar/assetgambarberanda/volume-off.png";
+
+
 import "./cssComponents/hero.css"
 
 
@@ -15,11 +19,11 @@ function Hero (){
             <div className="boxtombol">
                 <div className="kiri">
                     <button type="button" className="mulai">Mulai</button>
-                    <button type="button" className="selengkapnya"><img src="assetgambar/assetgambarberanda/information-outline.png" width="25" height="25" alt="information-outline" className="information-outline"/>Selengkapnya</button>
+                    <button type="button" className="selengkapnya"><img src={InformationOutline} width="25" height="25" alt="information-outline" className="information-outline"/>Selengkapnya</button>
                     <div className="batasusia">18+</div>
                 </div>
                 <div className="kanan">
-                    <button type="button" ><img src="assetgambar/assetgambarberanda/volume-off.png" width="25" height="25" alt="volume-off" className="volume-off"/></button>
+                    <button type="button" ><img src={VolumeOff} width="25" height="25" alt="volume-off" className="volume-off"/></button>
                 </div>
             </div>
         </div>

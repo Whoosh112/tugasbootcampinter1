@@ -1,8 +1,9 @@
-import Logo from "../Components/LogoChill";
 import Username from "../Components/Username";
 import KataSandi from "../Components/KataSandi";
 import LoginButtonBox from "../Components/LoginButtonBox";
 import SudahPunyaAkun from "../Components/SudahPunyaAkun";
+
+import logoChill from "../assets/assetgambar/logochill.png";
 
 import "./cssPages/styleLogin.css"
 
@@ -11,7 +12,7 @@ function Login () {
     return (
     <div className="loginscreen">
       <div className="logo">
-        <Logo />
+          <img src={logoChill} width="50%"/>
       </div>
         <div className="judul">
           <h1>Masuk</h1>
