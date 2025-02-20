@@ -1,5 +1,5 @@
 .box{
-    width: 1550px;
+    width: 80vw;
     height: 40vh;
     background-color: red;
     display: flex;
@@ -11,8 +11,8 @@
   }   
 
   .isibox{
-    margin-left: 30px;
-    margin-bottom: 10px;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
   }
 
   .boxtombol {

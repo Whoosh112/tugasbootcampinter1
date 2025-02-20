@@ -10,6 +10,8 @@ const films = [DontLookUpLanjut, AllOfUsAreDeadLanjut, BlueLockLanjut, AMancalle
 
 function MelanjutkanTontonFilm () {
     return(
+      <>
+        <p>Melanjutkan Tonton Film</p>
         <div className="lanjutfilm">
         {films.map((film, index) => (
           <div key={index} className={`lanjutfilm${index}`} style={{ backgroundImage:`linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url(${film})`}}>
@@ -32,6 +34,8 @@ function MelanjutkanTontonFilm () {
 
         
       </div>
+      </>
+
     )
 }
 
