@@ -1,4 +1,4 @@
-import Logo from "../Components/LogoChill";
+import logoChill from "../assets/assetgambar/logochill.png";
 import avatar from "../assets/assetgambar/assetgambarberanda/avatar.png";
 import keyboardarrowdown from "../assets/assetgambar/assetgambarberanda/KeyboardArrowDown.png";
 
@@ -11,7 +11,7 @@ function Navbar(){
     <>
         <nav className="navbar">
             <ul>
-                <Logo />
+                <img src={logoChill} width="30%"/>
                 <li>Series</li>
                 <li>Film</li>
                 <li>Daftar Saya</li>

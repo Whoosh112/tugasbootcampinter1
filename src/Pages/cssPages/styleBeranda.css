@@ -2,15 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
   }
 
 .beranda{
-        display: flex;
-        justify-content: center;     
-        flex-direction: column;
-        align-items: center;
-        margin-top: -200px;
-        color: rgb(224,224,224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(224,224,224);
+
 }
       
 .hero {

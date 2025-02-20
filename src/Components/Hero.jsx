@@ -1,14 +1,14 @@
 import InformationOutline from "../assets/assetgambar/assetgambarberanda/information-outline.png";
 import VolumeOff from "../assets/assetgambar/assetgambarberanda/volume-off.png";
+import DutyAfterSchoolHero from "../assets/assetgambar/assetgambarberanda/dutyafterschoolherobanner.png"
 
 
 import "./cssComponents/hero.css"
 
-
 function Hero (){
     return (
         <div className="container" id="container">       
-        <div className="box">
+        <div className="box" style={{ backgroundImage:`linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url(${DutyAfterSchoolHero})')`}}>
             <div className="isibox">
                 <h1>Duty After School</h1>
                 <p>Sebuah benda tak dikenal mengambil alih dunia. Dalam keputusasaan,<br/>
