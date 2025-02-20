@@ -5,18 +5,20 @@
     
   }
 
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-  }
-
 .beranda{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
   color: rgb(224,224,224);
+}
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
       
 .hero {
