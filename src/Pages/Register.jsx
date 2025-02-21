@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Username from "../Components/Username";
 import KataSandi from "../Components/KataSandi";
 import MasalahLogin from "../Components/MasalahLogin";
@@ -11,7 +13,18 @@ import "./cssPages/styleRegister.css"
 
 
 function Register () {
+
+  useEffect(() => {
+    document.body.classList.add("register-page");
+
+    return () => {
+      document.body.classList.remove("register-page");
+    };
+  }, []);
+  
     return (
+
+      
   <div className="registerscreen">
         <div className="logo">
           <img src={logoChill} width="50%"/>

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Username from "../Components/Username";
 import KataSandi from "../Components/KataSandi";
 import LoginButtonBox from "../Components/LoginButtonBox";
@@ -9,6 +11,14 @@ import "./cssPages/styleLogin.css"
 
 
 function Login () {
+
+  useEffect(() => {
+    document.body.classList.add("login-page");
+
+    return () => {
+      document.body.classList.remove("login-page");
+    };
+  }, []);
     return (
     <div className="loginscreen">
       <div className="logo">

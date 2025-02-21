@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body.register-page {
+  background:url("src/assets/assetgambar/gambarregister.jpg");
+  background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
 .registerscreen {
   display: flex;
   justify-content: center;  

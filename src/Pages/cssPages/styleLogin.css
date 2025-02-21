@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body.login-page {
+  background:url("src/assets/assetgambar/gambarlogin.jpg");
+  background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
 .loginscreen {
     display: flex;
     justify-content: center;  

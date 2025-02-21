@@ -15,7 +15,7 @@ function TopRatingFilms () {
       <p>Top Rating Film</p>
       <div className="arrayfilm">
       {topRatingFilms.map((film, index) => (
-        <div key={index} className={`films${index}`} style={{ backgroundImage:`linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url(${film})`}}>
+        <div key={index} className={`films${index}`} style={{ backgroundImage:`url(${film})`}}>
 
           {index === 2 && (
           <div>
