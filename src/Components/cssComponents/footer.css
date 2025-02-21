@@ -2,9 +2,8 @@
   display: flex;
 }
 
-.genre{
+.listgenre{
     display: flex;
-    flex-wrap: wrap;
   }
   
   .genre > ul, .bantuan > ul{
