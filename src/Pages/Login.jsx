@@ -11,15 +11,15 @@ import "./cssPages/styleLogin.css"
 
 
 function Login () {
-
   useEffect(() => {
-    document.body.classList.add("login-page");
+    document.body.classList.add("loginpage");
 
     return () => {
-      document.body.classList.remove("login-page");
+      document.body.classList.remove("loginpage");
     };
   }, []);
-    return (
+
+   return (
     <div className="loginscreen">
       <div className="logo">
           <img src={logoChill} width="50%"/>

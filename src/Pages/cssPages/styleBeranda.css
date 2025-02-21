@@ -4,7 +4,11 @@
     box-sizing: border-box;
   }
 
-  
+.berandapage {
+    background:rgba(24, 26, 28, 1);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
 .beranda{
   display: flex;
   flex-direction: column;
@@ -39,4 +43,16 @@
 
 .kotakfilm > p{
   margin-left: 35px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 67%;
+  border-top-style: solid;
+  border-top-color: grey;
+  border-width: thin;
+  padding: 20px;
 }

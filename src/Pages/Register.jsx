@@ -13,18 +13,15 @@ import "./cssPages/styleRegister.css"
 
 
 function Register () {
-
   useEffect(() => {
-    document.body.classList.add("register-page");
+    document.body.classList.add("registerpage");
 
     return () => {
-      document.body.classList.remove("register-page");
+      document.body.classList.remove("registerpage");
     };
   }, []);
   
-    return (
-
-      
+  return (
   <div className="registerscreen">
         <div className="logo">
           <img src={logoChill} width="50%"/>

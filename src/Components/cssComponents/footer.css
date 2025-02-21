@@ -1,0 +1,29 @@
+.bagianfooter{
+  display: flex;
+}
+
+.genre{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .genre > ul, .bantuan > ul{
+    margin: 10px;
+  }
+  
+  .genre1 > li, .genre2 > li, .genre3 > li, .genre4 > li, .bantuan ul > li {
+    margin: 10px;
+  }
+  
+  .genreheader {
+    flex-basis: 100%; 
+  }
+
+  .genreheader, .bantuanheader {
+    display: flex;
+  }
+  
+
+
+  
+  

@@ -4,15 +4,17 @@ import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import MelanjutkanTontonFilm from "../Components/MelanjutkanTontonFilm";
 import TopRatingFilm from "../Components/TopRatingFilm";
+import Footer from "../Components/Footer";
+
 
 import "./cssPages/styleBeranda.css"
 
 function Beranda () {
 useEffect(() => {
-        document.body.classList.add("beranda-page");
+        document.body.classList.add("berandapage");
     
         return () => {
-          document.body.classList.remove("beranda-page");
+          document.body.classList.remove("berandapage");
         };
       }, []);
 
@@ -39,6 +41,9 @@ return (
             <TopRatingFilm />
         </div>
       </div>
+      <div className="footer">
+            <Footer />
+        </div>
     </div>
     </>
     )
