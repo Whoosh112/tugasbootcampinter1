@@ -21,15 +21,30 @@
   .lanjutfilm2{
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+  }
+
+  .namafilmbluelock{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
   }
 
   .namafilm{
     display: flex;
     justify-content: space-between;
+
   }
 
   .rating{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
   }
+
+
+  .episodebaru {
+    background: blue;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 10px;
+}

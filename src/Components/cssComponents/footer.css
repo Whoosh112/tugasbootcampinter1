@@ -5,6 +5,10 @@
 .listgenre{
     display: flex;
   }
+
+  .bagiancopyright, .genre, .bantuan{
+    margin: 0 20px;
+  }
   
   .genre > ul, .bantuan > ul{
     margin: 10px;
@@ -20,6 +24,11 @@
 
   .genreheader, .bantuanheader {
     display: flex;
+  }
+
+  .chevron{
+    margin: 0 30px;
+
   }
   
 
