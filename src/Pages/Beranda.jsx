@@ -4,6 +4,8 @@ import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import MelanjutkanTontonFilm from "../Components/MelanjutkanTontonFilm";
 import TopRatingFilm from "../Components/TopRatingFilm";
+import FilmTrending from "../Components/FilmTrending";
+import RilisBaru from "../Components/RilisBaru";
 import Footer from "../Components/Footer";
 
 
@@ -35,10 +37,10 @@ return (
             <TopRatingFilm />
         </div>
         <div className="tempatfilm2">
-            <TopRatingFilm />
+            <FilmTrending />
         </div>
         <div className="tempatfilm3">
-            <TopRatingFilm />
+            <RilisBaru />
         </div>
       </div>
       <div className="footer">

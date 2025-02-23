@@ -12,25 +12,15 @@ const topRatingFilms = [Suzume, JurassicWorldDominion, Sonic2, AllOfUsAreDead, B
 function TopRatingFilms () {
   return(
     <>
-      <p>Top Rating Film</p>
+      <p>Top Rating Film Dan Series Hari Ini</p>
       <div className="arrayfilm">
       {topRatingFilms.map((film, index) => (
         <div key={index} className={`films${index}`} style={{ backgroundImage:`url(${film})`}}>
 
-          {index === 2 && (
-          <div>
-            <p>This is an additional div for the 3rd image!</p>
-          </div>
-        )}
-
-          {index === 0 && (
-          <div>
-            <p>This is an additional div for the 3rd image!</p>
-          </div>
+          {[0, 3].includes(index) &&  (
+          <div className="episodebaru">Episode Baru</div>
         )}
         </div>
-        
-        
       ))}
 
       
