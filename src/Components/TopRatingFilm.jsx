@@ -3,6 +3,8 @@ import JurassicWorldDominion from "../assets/assetgambar/assetgambarberanda/film
 import Sonic2 from "../assets/assetgambar/assetgambarberanda/filmnya/sonic2.png";
 import AllOfUsAreDead from "../assets/assetgambar/assetgambarberanda/filmnya/allofusaredead.png";
 import BigHero6 from "../assets/assetgambar/assetgambarberanda/filmnya/bighero6.png";
+import TombolKiri from "../assets/assetgambar/assetgambarberanda/arrow-left.png";
+import TombolKanan from "../assets/assetgambar/assetgambarberanda/arrow-right.png";
 
 import "./cssComponents/film.css"
 
@@ -12,16 +14,18 @@ const topRatingFilms = [Suzume, JurassicWorldDominion, Sonic2, AllOfUsAreDead, B
 function TopRatingFilms () {
   return(
     <>
-      <p>Top Rating Film Dan Series Hari Ini</p>
       <div className="arrayfilm">
-      {topRatingFilms.map((film, index) => (
-        <div key={index} className={`films${index}`} style={{ backgroundImage:`url(${film})`}}>
+        <div className="tombolkiri"><img src={TombolKiri}/></div>
+        
+        {topRatingFilms.map((film, index) => (
+          <div key={index} className={`films${index}`} style={{ backgroundImage:`url(${film})`}}>
 
-          {[0, 3].includes(index) &&  (
-          <div className="episodebaru">Episode Baru</div>
-        )}
-        </div>
+            {[0, 3].includes(index) &&  (
+            <div className="episodebaru">Episode Baru</div>
+          )}
+          </div>
       ))}
+          <div className="tombolkanan"><img src={TombolKanan}/></div>
 
       
     </div>

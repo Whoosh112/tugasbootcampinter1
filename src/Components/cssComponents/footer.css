@@ -31,7 +31,41 @@
     margin: 0 40%;
   }
   
+  @media only screen and (max-width: 600px), (max-height: 800px){
 
+    .bagianfooter {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .genre{
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  .chevron{
+    display: flex;
+  }
+
+  .genre > .genreheader > .chevron{
+    display: flex;
+    margin-left: 18px;
+  }
+
+  .genreheader, .bantuanheader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .genre1, .genre2, .genre3, .genre4{
+    display: none
+  }
+
+  .bantuan > ul, .genre > ul {
+    display: none
+  }
+  }
 
   
   

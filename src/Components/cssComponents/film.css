@@ -17,6 +17,8 @@
     background-size: cover; background-repeat: no-repeat; background-position: center;
 }
 
+
+
 .top10{
   background: red;
   display: flex;
@@ -37,4 +39,42 @@
   font-size: 20px;
   width: 70%;
   border-radius: 10px;
+}
+
+  .tombolkiri {
+    position: relative;
+    left: 30px;
+    background: transparent;
+    border: 0
+  }
+  
+  .tombolkanan {
+    position: relative;
+    right: 30px;
+    background: transparent;
+    border: 0
+  }
+
+@media only screen and (max-width: 600px) {
+  .arrayfilm{
+    margin-left: 250px; 
+  }
+
+  .films0, .films1, .films2, .films3, .films4  {
+      width: 150px;
+      height: 250px;
+  }
+
+  .top10{
+    font-size: 11px;
+    border-radius: 5px 10px;
+  }
+  
+  .episodebaru{
+    font-size: 11px;
+  }
+
+  .tombolkiri, .tombolkanan{
+    display: none;
+  }
 }

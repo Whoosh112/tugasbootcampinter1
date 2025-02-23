@@ -55,3 +55,13 @@
   border-width: thin;
   padding: 3% ;
 }
+
+@media only screen and (max-width: 600px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .kotakfilm {
+    padding: 20px; 
+  }
+}

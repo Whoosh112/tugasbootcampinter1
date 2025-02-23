@@ -82,3 +82,27 @@
     border-width: 2px;
     border-style: solid;
   }
+
+  
+  @media only screen and (max-width: 600px){
+
+  .isibox > p{
+    font-size: 14px;
+  }
+
+  .kotakfilm p {
+    margin-left: 775px; 
+  }
+
+  .kotakfilm {
+    padding: 20px; 
+  }
+}
+
+@media only screen and (max-height: 1200px){
+
+  .isibox > p{
+    font-size: 14px;
+  }
+
+}

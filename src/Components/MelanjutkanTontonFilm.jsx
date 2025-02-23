@@ -3,6 +3,9 @@ import AMancalledOttoLanjut from "../assets/assetgambar/assetgambarberanda/amanc
 import BlueLockLanjut from "../assets/assetgambar/assetgambarberanda/bluelocklanjut.png";
 import DontLookUpLanjut from "../assets/assetgambar/assetgambarberanda/dontlookuplanjut.png";
 import Star from "../assets/assetgambar/assetgambarberanda/star.png";
+import TombolKiri from "../assets/assetgambar/assetgambarberanda/arrow-left.png";
+import TombolKanan from "../assets/assetgambar/assetgambarberanda/arrow-right.png";
+
 
 
 import "./cssComponents/melanjutkanTontonFilm.css"
@@ -13,13 +16,14 @@ const films = [DontLookUpLanjut, AllOfUsAreDeadLanjut, BlueLockLanjut, AMancalle
 function MelanjutkanTontonFilm () {
     return(
       <>
-        <p>Melanjutkan Tonton Film</p>
-        <div className="lanjutfilm">
+
+      <div className="lanjutfilm">
+        <div className="tombolkiri"><img src={TombolKiri}/></div>
         {films.map((film, index) => (
           <div key={index} className={`lanjutfilm${index}`} style={{ backgroundImage:`linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url(${film})`}}>
 
             {index === 0 && (
-            <div className="namafilm">Don't Look Up <div className="rating"><img src={Star} width="30"/>4.5/5</div></div>
+            <div className="namafilm">Don&apos;t Look Up <div className="rating"><img src={Star} width="30"/>4.5/5</div></div>
           )}
 
             {index === 1 && (
@@ -36,15 +40,11 @@ function MelanjutkanTontonFilm () {
             {index === 3 && (
             <div className="namafilm">A Man Called Otto <div className="rating"><img src={Star} width="30"/>4.4/5</div></div>
           )}
-          </div>
-
-          
-          
-          
+          </div> 
         ))}
-
-        
+        <div className="tombolkanan"><img src={TombolKanan}/></div>
       </div>
+
       </>
 
     )

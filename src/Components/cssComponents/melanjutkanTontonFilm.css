@@ -48,3 +48,32 @@
     width: 70%;
     border-radius: 10px;
 }
+
+.tombolkiri {
+  position: relative;
+  left: 30px;
+  background: transparent;
+  border: 0
+}
+
+.tombolkanan {
+  position: relative;
+  right: 30px;
+  background: transparent;
+  border: 0
+}
+
+@media only screen and (max-width: 600px) {
+
+.lanjutfilm{
+  margin-left: 780px; 
+}
+
+.episodebaru{
+  font-size: 11px;
+}
+
+.tombolkiri, .tombolkanan{
+  display: none;
+}
+}

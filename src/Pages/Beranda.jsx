@@ -31,15 +31,19 @@ return (
       </div>
       <div className="kotakfilm">
         <div className="melanjutkantontonfilm">
+            <p>Melanjutkan Tonton Film</p>
             <MelanjutkanTontonFilm />
         </div>
         <div className="tempatfilm1">
+            <p>Top Rating Film Dan Series Hari Ini</p>
             <TopRatingFilm />
         </div>
         <div className="tempatfilm2">
+            <p>Film Trending</p>
             <FilmTrending />
         </div>
         <div className="tempatfilm3">
+            <p>Rilis Baru</p>
             <RilisBaru />
         </div>
       </div>
