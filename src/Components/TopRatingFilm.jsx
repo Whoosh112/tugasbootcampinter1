@@ -1,10 +1,10 @@
-import Suzume from "../assets/assetgambar/assetgambarberanda/filmnya/suzume.png";
-import JurassicWorldDominion from "../assets/assetgambar/assetgambarberanda/filmnya/jurassicworlddominion.png";
-import Sonic2 from "../assets/assetgambar/assetgambarberanda/filmnya/sonic2.png";
-import AllOfUsAreDead from "../assets/assetgambar/assetgambarberanda/filmnya/allofusaredead.png";
-import BigHero6 from "../assets/assetgambar/assetgambarberanda/filmnya/bighero6.png";
-import TombolKiri from "../assets/assetgambar/assetgambarberanda/arrow-left.png";
-import TombolKanan from "../assets/assetgambar/assetgambarberanda/arrow-right.png";
+const Suzume = "../assets/assetgambar/assetgambarberanda/filmnya/suzume.png";
+const JurassicWorldDominion = "../assets/assetgambar/assetgambarberanda/filmnya/jurassicworlddominion.png";
+const Sonic2 = "../assets/assetgambar/assetgambarberanda/filmnya/sonic2.png";
+const AllOfUsAreDead = "../assets/assetgambar/assetgambarberanda/filmnya/allofusaredead.png";
+const BigHero6 = "../assets/assetgambar/assetgambarberanda/filmnya/bighero6.png";
+const TombolKiri = "../assets/assetgambar/assetgambarberanda/arrow-left.png";
+const TombolKanan = "../assets/assetgambar/assetgambarberanda/arrow-right.png";
 
 import "./cssComponents/film.css"
 

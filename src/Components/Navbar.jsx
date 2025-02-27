@@ -1,6 +1,6 @@
-import logoChill from "../assets/assetgambar/logochill.png";
-import avatar from "../assets/assetgambar/assetgambarberanda/avatar.png";
-import keyboardarrowdown from "../assets/assetgambar/assetgambarberanda/KeyboardArrowDown.png";
+const logoChill = "/assets/assetgambar/logochill.png";
+const avatar = "/assets/assetgambar/assetgambarberanda/avatar.png";
+const keyboardarrowdown = "/assets/assetgambar/assetgambarberanda/KeyboardArrowDown.png";
 
 
 import "./cssComponents/navbar.css"

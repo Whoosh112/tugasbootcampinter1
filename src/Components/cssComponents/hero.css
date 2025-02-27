@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-     background:linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url("src/assets/assetgambar/assetgambarberanda/dutyafterschoolherobanner.png");
+     background:linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url("/assets/assetgambar/assetgambarberanda/dutyafterschoolherobanner.png");
     background-size: cover; background-repeat: no-repeat; background-position: center;
   }   
 

@@ -1,5 +1,5 @@
-import logoChill from "../assets/assetgambar/logochill.png";
-import chevronRight from "../assets/assetgambar/assetgambarberanda/chevron-right.png"
+const logoChill = "/assets/assetgambar/logochill.png";
+const chevronRight = "/assets/assetgambar/assetgambarberanda/chevron-right.png"
 
 import "./cssComponents/footer.css"
 

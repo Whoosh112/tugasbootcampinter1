@@ -1,5 +1,5 @@
-import InformationOutline from "../assets/assetgambar/assetgambarberanda/information-outline.png";
-import VolumeOff from "../assets/assetgambar/assetgambarberanda/volume-off.png";
+const InformationOutline = "/assets/assetgambar/assetgambarberanda/information-outline.png";
+const VolumeOff = "/assets/assetgambar/assetgambarberanda/volume-off.png";
 
 
 import "./cssComponents/hero.css"

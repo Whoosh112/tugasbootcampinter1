@@ -1,10 +1,10 @@
-import TheTomorrowWar from "../assets/assetgambar/assetgambarberanda/filmnya/thetomorrowwar.png";
-import Quantumania from "../assets/assetgambar/assetgambarberanda/filmnya/quantumania.png";
-import GuardianOfTheGalaxyVol3 from "../assets/assetgambar/assetgambarberanda/filmnya/guardianofthegalaxyvol3.png";
-import AManCalledOtto from "../assets/assetgambar/assetgambarberanda/filmnya/AManCalledOtto.png";
-import TheLittleMermaid from "../assets/assetgambar/assetgambarberanda/filmnya/thelittlemermaid.png";
-import TombolKiri from "../assets/assetgambar/assetgambarberanda/arrow-left.png";
-import TombolKanan from "../assets/assetgambar/assetgambarberanda/arrow-right.png";
+const TheTomorrowWar = "/assets/assetgambar/assetgambarberanda/filmnya/thetomorrowwar.png";
+const Quantumania = "/assets/assetgambar/assetgambarberanda/filmnya/quantumania.png";
+const GuardianOfTheGalaxyVol3 = "/assets/assetgambar/assetgambarberanda/filmnya/guardianofthegalaxyvol3.png";
+const AManCalledOtto = "/assets/assetgambar/assetgambarberanda/filmnya/AManCalledOtto.png";
+const TheLittleMermaid = "/assets/assetgambar/assetgambarberanda/filmnya/thelittlemermaid.png";
+const TombolKiri = "/assets/assetgambar/assetgambarberanda/arrow-left.png";
+const TombolKanan = "/assets/assetgambar/assetgambarberanda/arrow-right.png";
 
 import "./cssComponents/film.css"
 

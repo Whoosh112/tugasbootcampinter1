@@ -5,7 +5,7 @@
 }
 
 .registerpage {
-  background:url("src/assets/assetgambar/gambarregister.jpg");
+  background:url("/assets/assetgambar/gambarregister.jpg");
   background-size: cover; background-repeat: no-repeat; background-position: center;
 }
 

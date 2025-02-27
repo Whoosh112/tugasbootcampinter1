@@ -5,7 +5,7 @@ import KataSandi from "../Components/KataSandi";
 import LoginButtonBox from "../Components/LoginButtonBox";
 import SudahPunyaAkun from "../Components/SudahPunyaAkun";
 
-import logoChill from "../assets/assetgambar/logochill.png";
+const logoChill = "/assets/assetgambar/logochill.png";
 
 import "./cssPages/styleLogin.css"
 

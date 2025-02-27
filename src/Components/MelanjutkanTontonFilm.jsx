@@ -1,10 +1,10 @@
-import AllOfUsAreDeadLanjut from "../assets/assetgambar/assetgambarberanda/allofusaredeadlanjut.png";
-import AMancalledOttoLanjut from "../assets/assetgambar/assetgambarberanda/amancalledottolanjut.png";
-import BlueLockLanjut from "../assets/assetgambar/assetgambarberanda/bluelocklanjut.png";
-import DontLookUpLanjut from "../assets/assetgambar/assetgambarberanda/dontlookuplanjut.png";
-import Star from "../assets/assetgambar/assetgambarberanda/star.png";
-import TombolKiri from "../assets/assetgambar/assetgambarberanda/arrow-left.png";
-import TombolKanan from "../assets/assetgambar/assetgambarberanda/arrow-right.png";
+const AllOfUsAreDeadLanjut = "/assets/assetgambar/assetgambarberanda/allofusaredeadlanjut.png";
+const AMancalledOttoLanjut = "/assets/assetgambar/assetgambarberanda/amancalledottolanjut.png";
+const BlueLockLanjut = "/assets/assetgambar/assetgambarberanda/bluelocklanjut.png";
+const DontLookUpLanjut = "/assets/assetgambar/assetgambarberanda/dontlookuplanjut.png";
+const Star = "/assets/assetgambar/assetgambarberanda/star.png";
+const TombolKiri = "/assets/assetgambar/assetgambarberanda/arrow-left.png";
+const TombolKanan = "/assets/assetgambar/assetgambarberanda/arrow-right.png";
 
 
 

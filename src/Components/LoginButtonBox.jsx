@@ -1,4 +1,4 @@
-import logoGoogle from "../assets/assetgambar/logogoogle.svg";
+const logoGoogle = "/assets/assetgambar/logogoogle.svg";
 import "./cssComponents/loginButtonBox.css"
 
 

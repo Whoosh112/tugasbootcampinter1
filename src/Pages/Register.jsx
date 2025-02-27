@@ -7,7 +7,7 @@ import LoginButtonBox from "../Components/LoginButtonBox";
 import KataSandiUlang from "../Components/KataSandiUlang";
 import WelcomeRegister from "../Components/WelcomeRegister";
 
-import logoChill from "../assets/assetgambar/logochill.png";
+const logoChill = "/assets/assetgambar/logochill.png";
 
 import "./cssPages/styleRegister.css"
 

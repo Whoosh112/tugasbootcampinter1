@@ -5,7 +5,7 @@
 }
 
 .loginpage {
-  background:url("src/assets/assetgambar/gambarlogin.jpg");
+  background:url("/assets/assetgambar/gambarlogin.jpg");
   background-size: cover; background-repeat: no-repeat; background-position: center;
 }
 
